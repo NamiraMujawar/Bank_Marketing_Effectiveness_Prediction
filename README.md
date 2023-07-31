@@ -45,7 +45,30 @@ Bank marketing effectiveness prediction is a critical task for financial institu
 By incorporating bank marketing effectiveness prediction into their operations, financial institutions can make data-driven decisions, optimize marketing efforts, and achieve higher customer engagement, loyalty, and revenue.
 
 #**Problem Statement**
+---
 
 The data is related to direct marketing campaigns (phone calls) of a Portuguese banking institution. The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, in order to assess if the product (bank term deposit) would be ('yes') or not ('no') subscribed. The classification goal is to predict if the client will subscribe to a term deposit (variable y).
+
+**Dataset Information**
+---
+The given dataset contains information from a marketing campaign, and it consists of 45,211 entries (rows) and 16 columns. Here is a brief description of each column:
+
+1. **age:** Age of the individual (integer).
+2. **job:** Occupation or job category of the individual (object/string).
+3. **marital:** Marital status of the individual (object/string).
+4. **education:** Education level of the individual (object/string).
+5. **default:** Indicates if the individual has credit in default (object/string).
+6. **balance:** Balance of the individual's bank account (integer).
+7. **housing:** Indicates if the individual has a housing loan (object/string).
+8. **loan:** Indicates if the individual has a personal loan (object/string).
+9. **contact:** Communication contact type (object/string).
+10. **day:** Day of the month when the last contact was made (integer).
+11. **month:** Month of the year when the last contact was made (object/string).
+12. **campaign:** Number of contacts performed during this campaign for this individual (integer).
+13. **pdays:** Number of days that passed by after the last contact from a previous campaign (integer).
+14. **previous:** Number of contacts performed before this campaign for this individual (integer).
+15. **poutcome:** Outcome of the previous marketing campaign (object/string).
+16. **y:** Target variable, indicating if the individual subscribed to the product/service (object/string).
+The dataset does not contain any missing values (non-null count is equal to the total number of entries for each column). The data types of the columns are either integers (int64) or objects (strings).
 
 
