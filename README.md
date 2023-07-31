@@ -43,3 +43,9 @@ Bank marketing effectiveness prediction is a critical task for financial institu
 
 
 By incorporating bank marketing effectiveness prediction into their operations, financial institutions can make data-driven decisions, optimize marketing efforts, and achieve higher customer engagement, loyalty, and revenue.
+
+#**Problem Statement**
+
+The data is related to direct marketing campaigns (phone calls) of a Portuguese banking institution. The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, in order to assess if the product (bank term deposit) would be ('yes') or not ('no') subscribed. The classification goal is to predict if the client will subscribe to a term deposit (variable y).
+
+
