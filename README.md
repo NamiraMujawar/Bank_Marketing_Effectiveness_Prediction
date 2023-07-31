@@ -75,4 +75,9 @@ The dataset does not contain any missing values (non-null count is equal to the 
 ![Screenshot (98)](https://github.com/NamiraMujawar/Bank_Marketing_Effectiveness_Prediction/assets/120715329/3b2502f4-18cc-457b-a2d3-7f23acba64cc)
 
 
+**Conclusion**
+---
+In summary, further experimentation is needed to enhance performance in bank marketing effectiveness prediction. Class imbalance can be addressed with techniques like 'Ensembling' for better results. Recall, prioritizing potential customers' identification, guided our selection criterion. XG Boost, with the highest Recall, is the preferred model, highlighting significant predictors: previous loans, marital status, age, balance, contact month, and weeks played. Synthetic data and adding complexity to neural networks show promise. Tuning thresholds and adding new features can improve predictions. Though limited by dataset size, continuous exploration remains vital for progress.
+
+
 
