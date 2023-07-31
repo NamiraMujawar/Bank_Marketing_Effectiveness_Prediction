@@ -69,6 +69,10 @@ The given dataset contains information from a marketing campaign, and it consist
 14. **previous:** Number of contacts performed before this campaign for this individual (integer).
 15. **poutcome:** Outcome of the previous marketing campaign (object/string).
 16. **y:** Target variable, indicating if the individual subscribed to the product/service (object/string).
+
 The dataset does not contain any missing values (non-null count is equal to the total number of entries for each column). The data types of the columns are either integers (int64) or objects (strings).
+
+![Screenshot (98)](https://github.com/NamiraMujawar/Bank_Marketing_Effectiveness_Prediction/assets/120715329/3b2502f4-18cc-457b-a2d3-7f23acba64cc)
+
 
 
